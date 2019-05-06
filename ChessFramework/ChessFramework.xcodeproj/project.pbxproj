@@ -10,6 +10,10 @@
 		143C662F2280C9F700E6C0BA /* ChessFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C66252280C9F700E6C0BA /* ChessFramework.framework */; };
 		143C66342280C9F700E6C0BA /* ChessFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C66332280C9F700E6C0BA /* ChessFrameworkTests.m */; };
 		143C66362280C9F700E6C0BA /* ChessFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 143C66282280C9F700E6C0BA /* ChessFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143C66412280CAA900E6C0BA /* CFBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 143C663F2280CAA900E6C0BA /* CFBoard.h */; };
+		143C66422280CAA900E6C0BA /* CFBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C66402280CAA900E6C0BA /* CFBoard.m */; };
+		143C66452280CABF00E6C0BA /* CFPiece.h in Headers */ = {isa = PBXBuildFile; fileRef = 143C66432280CABF00E6C0BA /* CFPiece.h */; };
+		143C66462280CABF00E6C0BA /* CFPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C66442280CABF00E6C0BA /* CFPiece.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		143C662E2280C9F700E6C0BA /* ChessFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143C66332280C9F700E6C0BA /* ChessFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessFrameworkTests.m; sourceTree = "<group>"; };
 		143C66352280C9F700E6C0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143C663F2280CAA900E6C0BA /* CFBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFBoard.h; sourceTree = "<group>"; };
+		143C66402280CAA900E6C0BA /* CFBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFBoard.m; sourceTree = "<group>"; };
+		143C66432280CABF00E6C0BA /* CFPiece.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFPiece.h; sourceTree = "<group>"; };
+		143C66442280CABF00E6C0BA /* CFPiece.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPiece.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,10 @@
 			children = (
 				143C66282280C9F700E6C0BA /* ChessFramework.h */,
 				143C66292280C9F700E6C0BA /* Info.plist */,
+				143C663F2280CAA900E6C0BA /* CFBoard.h */,
+				143C66402280CAA900E6C0BA /* CFBoard.m */,
+				143C66432280CABF00E6C0BA /* CFPiece.h */,
+				143C66442280CABF00E6C0BA /* CFPiece.m */,
 			);
 			path = ChessFramework;
 			sourceTree = "<group>";
@@ -93,7 +105,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143C66412280CAA900E6C0BA /* CFBoard.h in Headers */,
 				143C66362280C9F700E6C0BA /* ChessFramework.h in Headers */,
+				143C66452280CABF00E6C0BA /* CFPiece.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143C66422280CAA900E6C0BA /* CFBoard.m in Sources */,
+				143C66462280CABF00E6C0BA /* CFPiece.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
